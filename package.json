@@ -1,0 +1,16 @@
+{
+  "name": "edin-iss-root",
+  "version": "1.0.0",
+  "description": "Root package for running both back-end and front-end",
+  "scripts": {
+    "start": "concurrently \"npm run start:back\" \"npm run start:front\"",
+    "start:back": "npm run start:dev --prefix edin-iss/iss-back-end",
+    "start:front": "npm start --prefix edin-iss/iss-front-end",
+    "install:all": "npm install && npm install --prefix edin-iss/iss-back-end && npm install --prefix edin-iss/iss-front-end",
+    "prisma:generate": "npx prisma generate --schema=edin-iss/iss-back-end/prisma/schema.prisma",
+    "setup": "npm run install:all && npm run prisma:generate"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

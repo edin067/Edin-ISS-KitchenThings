@@ -1,0 +1,89 @@
+/* src/styles/login-page.css */
+.login-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../public/img/login-background-image.png"); /* Adjust the path based on your folder structure */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Slightly transparent white for contrast */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+.login-form-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-group-row {
+  display: flex;
+  gap: 10px; /* Space between first name and last name inputs */
+}
+
+.form-group {
+  flex: 1; /* Each input takes up equal space */
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #3b2a23;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #3b2a23;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+.register-login-invite {
+  margin-top: 10px;
+}
+.register-login-invite a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3b2a23;
+}

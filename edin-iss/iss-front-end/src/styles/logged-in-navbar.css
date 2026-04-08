@@ -1,0 +1,32 @@
+.logged-in-navbar {
+  background-color: transparent !important;
+  margin-bottom: 120px;
+}
+.logged-in-logo {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logged-in-navbar-links a,
+button {
+  color: #fff;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logged-in-navbar-links button {
+  margin-left: 15px;
+  font-family: inherit;
+}
+.logged-in-navbar-links button:first-of-type {
+  background-color: #2f4f4fa4;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+.logged-in-navbar-links a:hover {
+  color: #fff;
+  text-decoration: none;
+}

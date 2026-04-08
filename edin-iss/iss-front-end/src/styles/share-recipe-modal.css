@@ -1,0 +1,96 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+.modal-img-box-wrapper {
+  height: 200px;
+  width: 350px;
+  margin: 0 auto;
+}
+.modal-img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+.modal-add-image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.add-image-button {
+  background-color: #3b2a23;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.delete-image-icon {
+  background-color: #3b292381;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+.modal-content h2 {
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.form-group textarea {
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+.form-group textarea::placeholder {
+  font-family: inherit;
+  font-size: 16px;
+}
+.share-recipe-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-buttons button:first-child {
+  margin-left: 1rem;
+  background-color: #3b2a23;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.modal-buttons button:last-child {
+  background-color: #fff;
+  color: #3b2a23;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}

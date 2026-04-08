@@ -1,0 +1,39 @@
+/* src/pages/LandingPage.css */
+/* src/pages/LandingPage.css */
+.landing-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Semi-transparent black gradient */
+      url("../../public/img/background-image.png"); /* Background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page-content {
+  padding: 40px;
+  text-align: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent background for text readability */
+  border-radius: 10px;
+  margin: auto;
+  max-width: 600px;
+}
+
+.landing-page-content h1 {
+  font-size: 2.5rem;
+  color: #3b2a23;
+  margin-bottom: 20px;
+}
+
+.landing-page-content p {
+  font-size: 1.25rem;
+  color: #555;
+  line-height: 1.6;
+}
